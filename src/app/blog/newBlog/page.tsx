@@ -1,12 +1,11 @@
 import { ClientPageRoot } from "next/dist/client/components/client-page";
 import Image from "next/image";
-import {useState} from 'react';
+
 
 // function to trigger onclick
 export default function NewBlog() {
 
-    const [title, setTitle] = useState("Title Great")
-    console.log(title)
+    
   return (
     <div>
       <div className="container mx-auto mt-4 ml-4">
